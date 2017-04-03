@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:id="@+id/simpleSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="false"
+        android:disableDependentsState="false"
+        android:key="notification_service"
+        android:persistent="true"
+        android:summaryOff="turned off"
+        android:summaryOn="turned on"
+        android:title="Notifications" />
+
+    <PreferenceCategory android:title="Debug Settings">
+
+        <EditTextPreference
+            android:id="@+id/serveradressInput"
+            android:defaultValue="127.0.0.1"
+            android:key="serverAddress"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Serveraddress" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

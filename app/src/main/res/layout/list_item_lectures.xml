@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_lectures"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="18dp"
+    android:onClick="goPostsOverview">
+
+    <TextView
+        android:id="@+id/list_item_lectures_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="20dp"
+        android:text="Lecture XY"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/list_item_lectures_textview_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_lectures_textview"
+        android:gravity="center_vertical"
+        android:minHeight="20dp"
+        android:text="ABC123"
+        android:textSize="14dp" />
+</RelativeLayout>
